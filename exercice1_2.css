@@ -1,0 +1,56 @@
+/* 
+html, body {
+ margin: 0;
+ padding: 0;
+}
+* {border:1px solid black} 
+
+*/
+
+body {
+    background: #D3D3D3;
+    color: black;
+    font-size: 14px;
+}
+
+h1 {
+    color: blue;
+    font-size: 16px;
+}
+
+#groupe {
+    display: inline-flex;
+    align-items: flex-start;
+    width: 315px;
+    margin-top: 20px;
+}
+
+div p.rouge {
+    color: red;
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    width: 50px;
+}
+
+img {
+    box-shadow: 3px 3px 2px white;
+    left: 30px;
+    position: relative;
+    height: 150px;
+}
+
+#boutons {
+    margin-left: 150px;
+    position: relative;
+    top : 20px;
+}
+
+button {
+    margin-right: 10px;
+}
+
